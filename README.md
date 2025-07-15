@@ -1,3 +1,9 @@
+# 🚀 OpenPI: An Open-Source Framework for Policy Learning in Robotics
+OpenPI is an open-source framework designed to streamline policy learning and deployment for robotic systems. It provides a complete workflow that includes data preprocessing, model pre-training for improved generalization, fine-tuning on real-world hardware, and serving policies for online control. With modular training scripts and flexible configuration, OpenPI enables efficient sim-to-real transfer, making it ideal for robotic manipulation tasks that require tight integration between robot arms and vision systems.
+
+
+
+
 # ✅ Step 1
 git clone https://github.com/XJTU-RoboLab/openpi.git
 
@@ -50,3 +56,7 @@ First start the service, which will listen on port <8000>:
 
 Then run the client service:
 	python scripts/client.py
+
+
+# 🔗 Acknowledgment
+This project builds upon and extends the excellent work from the [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi). We sincerely thank the original authors for providing such a robust and well-documented framework that made this research possible.
