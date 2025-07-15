@@ -1,9 +1,8 @@
+# ✅ Step 1
+git clone https://github.com/XJTU-RoboLab/openpi.git
 
-step 1 
-git clone ...
 
-
-step 2 
+# ✅ Step 2 
 Follow openpi to install dependencies:
 
 	GIT_LFS_SKIP_SMUDGE=1 uv sync
@@ -14,7 +13,7 @@ Activate env:
 	source .vene/bin/activate
 
 
-step 3 
+# ✅ Step 3 
 Convert the collected data format:
 
 	python examples/franka/convert_franka_data_to_lerobot.py
@@ -24,7 +23,7 @@ Convert the collected data format:
 And the data will be stored 
 
 
-step 4
+# ✅ Step 4
 First you need to change the config file of the data path:
 
 	src/openpi/training/config.py
@@ -36,7 +35,7 @@ Pre-training is performed on generated data to enhance the generalization of the
 	--exp-name=<your experiment name>
 
 
-step 5 
+# ✅ Step 5 
 Then fine-tune the model on real data to adapt it to the hardware properties of the corresponding robotic arm and camera.
 
 	python scripts/train.py 	
