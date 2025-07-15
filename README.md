@@ -5,8 +5,9 @@ OpenPI is an open-source framework designed to streamline policy learning and de
 
 
 # ✅ Step 1
+```bash
 git clone https://github.com/XJTU-RoboLab/openpi.git
-
+```
 
 # ✅ Step 2 
 Follow openpi to install dependencies:
